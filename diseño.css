@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    font-family: "open sans";
+    margin-left: 30px;
+    margin-top: 30px;
+   background-image: url(img/fondo\ rob\ 1.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-attachment: fixed;
+
+}
+#cabecera{
+    color: black(17, 17, 16);
+    background-color: rgb(128, 255, 0);
+    padding: 20px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.contenedor{
+    padding: 30px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color: forestgreen;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+header .textos-header{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.textos-header h1{
+    font-size: 60px;
+    color: fff;
+
+}
+.textos-header h2{
+    font-size: 70px;
+    color: fff;
+}
+.textos-header h4{
+    text-align: center;
+    color: blue;
+}
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.imagen-port{
+    width: 24%;
+    margin-bottom:10px;
+}
+.imagen-port > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+@media(max-width:1000px){
+    .logo-especies{
+        display:none;
+    }
+}

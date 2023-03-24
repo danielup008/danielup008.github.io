@@ -1,0 +1,42 @@
+*{
+margin:5;
+padding:4;
+}
+body {
+background:#dfdbd6;
+font-family:verdana;
+}
+h1{
+color:rgb(3, 0, 204);
+font-size:24px;
+}
+p{
+font-size:16px;
+}
+ul {
+list-style-type:square;
+}
+#cabecera {
+color:rgb(17, 17, 16);
+background-color:#1ba391; 
+padding:4px;
+font-size: 20px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#contenedor {
+margin: 5px;
+width:1320px;
+}
+#contenido {
+text-align: justify;
+background-color:#ddd;
+float:center;
+height:900px;
+padding:10px;
+width:1300px;    
+}
+@media(max-width:1000px){
+    .logo-especies{
+        display:none;
+    }
+}

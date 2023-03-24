@@ -1,0 +1,99 @@
+#uno{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height:2px;
+    margin-top: 10px;
+}
+body{
+    margin-left: 20px;
+    margin-top: 20px;
+background-image: url(./img/blur\ .jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100%;
+margin-right: 20px;
+font-family:"open sans";}
+
+#dos{
+    font-family:sans-serif
+}
+#tres{
+    font-size: 20px;
+}
+#cuatro{
+    font-size: 20px;
+}
+#cinco{
+    font-size: 20px;
+    
+}
+#seis{
+    font-size: 20px;
+}
+
+h2{
+    font-family: sans-serif
+}
+li{
+    font-size: 20px;
+}
+#cabecera{
+    color: rgb(255, 255, 255);
+    background-color: rgba(43, 41, 41, 0.144);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
+    height: 20px;
+}
+
+.cont{
+        background-image: none;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size:100%;
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    padding: 2% 4%;
+    box-sizing: border-box;
+    box-align:center;
+}
+.box{
+    flex: 1;
+    overflow: hidden;
+    margin: 5px;
+    line-height: 0;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.315);
+    transition: all 300ms;
+}
+.box>img{
+    width: 100%;
+    height:80%;
+    object-fit:cover;
+    transition: all 200ms;
+}
+.box>span{
+    color: azure;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 1.5;
+}
+.box:hover{
+    flex: 20%;  
+}
+.box:hover>img{
+    width: 100%;
+    height: 85%;
+    cursor: pointer;
+}
+@media(max-width:1000px){
+    .logo-especies{
+        display:none;
+    }
+}
